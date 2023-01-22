@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    border-radius: 25px;
+    position: sticky;
+    top: 10px;
+
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-logo {
+            img {
+                height: 70px;
+            }
+        }
+
+        &-link {
+            ul {
+                display: flex;
+                flex-direction: row;
+
+                li {
+                    &:hover {
+                        scale: 1.1;
+                        transition: all 0.3s;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        margin-left: 40px;
+                        color: #2A3738;
+
+                        &:hover {
+                            color: green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

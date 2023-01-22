@@ -1,0 +1,25 @@
+.main {
+    height: 100vh;
+    padding-top: 200px;
+
+    &-wrapp {
+        max-width: 400px;
+
+        &-subtitle {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            h2 {
+                font-size: 50px;
+                margin-right: 20px;
+                min-width: 210px;
+            }
+
+            img {
+                height: 100px;
+                padding-left: 40px;
+            }
+        }
+    }
+}

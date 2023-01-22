@@ -1,0 +1,11 @@
+$main_text_color: #00aa5c;
+$main_bg_color: #ec8340;
+
+body {
+    background-color: #ecab0c;
+}
+
+@import "_hero.scss";
+@import "_header.scss";
+@import "_main.scss";
+@import "_logo.scss";
