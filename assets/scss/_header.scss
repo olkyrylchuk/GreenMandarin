@@ -1,13 +1,14 @@
 .header {
+    z-index: 2;
     display: flex;
     align-items: center;
     height: 100px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
-    border-radius: 25px;
     position: sticky;
     top: 10px;
+    background-color: #000;
+
 
     &-nav {
         display: flex;
@@ -35,7 +36,8 @@
                         text-decoration: none;
                         text-transform: uppercase;
                         margin-left: 40px;
-                        color: #2A3738;
+                        color: #fff;
+                        opacity: 1;
 
                         &:hover {
                             color: green;

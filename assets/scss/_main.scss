@@ -1,9 +1,17 @@
 .main {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 200px;
+    background: url(../../src/img/hairdresser-1098831_1920.webp) no-repeat;
+    min-width: 100%;
+    color: #000;
 
     &-wrapp {
         max-width: 400px;
+
+        &-title {
+            position: absolute;
+            right: 20%;
+        }
 
         &-subtitle {
             display: flex;
